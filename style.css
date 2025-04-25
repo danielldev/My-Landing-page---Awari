@@ -51,6 +51,9 @@ div.profile_about {
 .links li {
     list-style: none;
 }
+.link ul {
+    padding: 0;
+}
 
 .links a {
     display: flex;
@@ -71,8 +74,8 @@ div.profile_about {
     background-color: #F38C79;
 }
 
-@media screen and (max-width: 720px) {
+/*@media screen and (max-width: 720px) {
     .profile_about {
         font-size: 20px;
     }
-}
+} */
