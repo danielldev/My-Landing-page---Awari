@@ -1,7 +1,6 @@
 body {
-    background: rgb(3,76,83);
-    background: radial-gradient(circle, rgba(3,76,83,1) 24%, rgba(0,112,116,1) 85%);
-    min-height: 100vh
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(30 30 30) 80%, rgb(44 44 103));
 }
 
 .container {
@@ -62,16 +61,17 @@ ul {
     margin: 26px;
     text-decoration: none;
     height: 50px;
-    border: solid white;
+    border: solid #fff;
     border-radius: 11px;
-    color: black;
+    color: #fff;
     font-size: 18px;
 }
 
 .links a:hover {
     border: solid #fff;
-    color: black;
-    background-color: #F38C79;
+    color: #fff;
+    background-color: #414141;
+    transition: .5s;
 }
 
 /*@media screen and (max-width: 720px) {
